@@ -10,22 +10,22 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Hello Building'
+                echo 'Hello am Building a pipeline'
             }
         }
         stage('Deploye') {
             steps {
-                echo 'Hello Deploying'
+                echo 'Hello am going to Deploying a code'
             }
         }
         stage('Test') {
             steps {
-                echo 'Hello Testing'
+                echo 'Hello am Testing your pipeline'
             }
         }
         stage('Release') {
             steps {
-                echo 'Hello Releasing'
+                echo 'Hello am going to Releasing you in this sprint'
             }
         }
         
